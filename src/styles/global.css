@@ -1,0 +1,81 @@
+/* 全局样式 */
+.app-container {
+  min-height: 100vh;
+}
+
+/* 侧边栏样式 */
+.app-sidebar {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.app-sidebar .ant-menu {
+  height: 100%;
+  border-right: 0;
+}
+
+.app-sidebar .ant-menu-item {
+  margin: 0;
+}
+
+.app-logo {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #001529;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* 内容区域样式 */
+.app-content {
+  padding: 24px;
+  background: #f0f2f5;
+  min-height: calc(100vh - 64px);
+}
+
+/* 表单页面通用样式 */
+.form-page {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.form-container {
+  background: #fff;
+  padding: 24px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* 代码块样式 */
+.code-block {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.code-block pre {
+  margin: 0;
+  padding: 16px;
+  overflow: auto;
+  font-size: 14px;
+  line-height: 1.5;
+  background-color: #f6f8fa;
+  border-radius: 4px;
+}
+
+.code-block code {
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+  white-space: pre;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+  .app-content {
+    padding: 16px;
+  }
+  
+  .form-container {
+    padding: 16px;
+  }
+}

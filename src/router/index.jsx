@@ -5,6 +5,7 @@ import NestedForm from '../pages/nested/NestedForm';
 import DynamicForm from '../pages/dynamic/DynamicForm';
 import RelatedForm from '../pages/related/RelatedForm';
 import StepForm from '../pages/step/StepForm';
+import Home from '../pages/home/Home';
 
 const router = createBrowserRouter([
   {
@@ -13,7 +14,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <Navigate to="/basic" replace />,
+        element: <Home />,
       },
       {
         path: '/basic',

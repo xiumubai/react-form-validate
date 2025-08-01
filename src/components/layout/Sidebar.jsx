@@ -7,6 +7,7 @@ import {
   BarsOutlined,
   LinkOutlined,
   StepForwardOutlined,
+  HomeOutlined,
 } from '@ant-design/icons';
 import reactLogo from '../../assets/react.svg';
 const { Header } = AntLayout;
@@ -16,6 +17,11 @@ const Sidebar = () => {
   const selectedKey = location.pathname;
 
   const menuItems = [
+    {
+      key: '/',
+      icon: <HomeOutlined />,
+      label: <Link to="/">首页</Link>,
+    },
     {
       key: '/basic',
       icon: <FormOutlined />,

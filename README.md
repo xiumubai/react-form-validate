@@ -2,6 +2,11 @@
 
 这是一个基于 React + Vite + Ant Design 4.x 构建的表单校验文档网站，旨在展示各种表单校验场景和最佳实践，帮助开发者快速掌握表单校验技巧。
 
+## 在线预览
+
+- 预览地址：[https://react-form-validate-7mfv1u311-xiumubais-projects.vercel.app](https://react-form-validate-7mfv1u311-xiumubais-projects.vercel.app)
+- GitHub仓库：[https://github.com/xiumubai/react-form-validate](https://github.com/xiumubai/react-form-validate)
+
 ## 功能特点
 
 - 📚 多种表单校验场景展示
